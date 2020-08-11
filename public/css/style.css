@@ -1,0 +1,50 @@
+header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    font-size: 2vw;
+}
+
+#date {
+    font-size: 3vw;
+}
+
+.date-cell {
+    height: 11vw;
+    border: darkgrey solid 1px;
+}
+
+.number {
+    font-size: 2vw;
+    float: right;
+    margin: 1vw;
+    width: 2vw;
+    padding: 0.7vw;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.button {
+    background-color: gray;
+    color: white;
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+.button-container {
+    margin: 2vw;
+}
+
+.today {
+    background-color: orange;
+    color: white;
+    border-radius: 100%;
+}
